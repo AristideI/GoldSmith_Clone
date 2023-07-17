@@ -525,36 +525,55 @@
     </main>
 
 
-    <footer class="bg-[#333] text-white py-12 px-12 flex justify-between">
-        <section class="flex flex-col gap-4">
-            <div class="flex flex-col font-medium">
-                <p><a href="#">About Us</a></p>
-                <p><a href="#">Contact Us</a></p>
-                <p><a href="#">Find Us</a></p>
-                <p><a href="#">Jobs</a></p>
+    <footer class="bg-[#333] text-white py-12 px-12 flex flex-col gap-12">
+        <article class="flex justify-between">
+            <section class="flex flex-col gap-4">
+                <div class="flex flex-col font-medium">
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                    <p><a href="#">Find Us</a></p>
+                    <p><a href="#">Jobs</a></p>
+                </div>
+                <p class="font-medium text-gray-300 text-xs sm:hidden">&copy; 2023 Goldsmiths, University of London</p>
+            </section>
+
+            <div class="flex flex-col font-medium ">
+                <p><a href="#">Accessibility Statement</a></p>
+                <p><a href="#">Cookie use</a></p>
+                <p><a href="#">Copy right and disclaimer</a></p>
+                <p><a href="#">Slavery and human trafficking statement</a></p>
             </div>
-            <p class="font-medium text-gray-300 text-xs ">&copy; 2023 Goldsmiths, University of London</p>
-        </section>
 
-        <div class="flex flex-col font-medium">
-            <p><a href="#">Accessibility Statement</a></p>
-            <p><a href="#">Cookie use</a></p>
-            <p><a href="#">Copy right and disclaimer</a></p>
-            <p><a href="#">Slavery and human trafficking statement</a></p>
-        </div>
+            <p class="sm:hidden"><a class=" font-medium border-t-2 pt-2" href="#">Admin login</a></p>
 
-        <p class=""><a class=" font-medium border-t-2 pt-2" href="#">Admin login</a></p>
+            <section class="flex flex-col items-end justify-between sm:hidden">
+                <div class="flex items-center gap-2">
+                    <img class="w-6" src="images/twitter.png" alt="">
+                    <img class="w-6" src="images/linkedin.png" alt="">
+                    <img class="w-6" src="images/facebook-app-symbol.png" alt="">
+                    <img class="w-6" src="images/instagram.png" alt="">
+                    <img class="w-6" src="images/youtube.png" alt="">
+                </div>
+                <button class="font-medium text-xs">Back to top</button>
+            </section>
+        </article>
 
-        <section class="flex flex-col items-end justify-between">
-            <div class="flex items-center gap-2">
-                <img class="w-6" src="images/twitter.png" alt="">
-                <img class="w-6" src="images/linkedin.png" alt="">
-                <img class="w-6" src="images/facebook-app-symbol.png" alt="">
-                <img class="w-6" src="images/instagram.png" alt="">
-                <img class="w-6" src="images/youtube.png" alt="">
-            </div>
-            <button class="font-medium text-xs">Back to top</button>
-        </section>
+        <article class="hidden sm:flex flex-col gap-6">
+            <p class=""><a class=" font-medium border-t-2 pt-2" href="#">Admin login</a></p>
+
+            <section class="flex justify-between">
+                <div class="flex items-center gap-2">
+                    <img class="w-6" src="images/twitter.png" alt="">
+                    <img class="w-6" src="images/linkedin.png" alt="">
+                    <img class="w-6" src="images/facebook-app-symbol.png" alt="">
+                    <img class="w-6" src="images/instagram.png" alt="">
+                    <img class="w-6" src="images/youtube.png" alt="">
+                </div>
+                <button class="font-medium text-sm">Back to top</button>
+            </section>
+
+            <p class="font-medium text-gray-300 text-sm ">&copy; 2023 Goldsmiths, University of London</p>
+        </article>
     </footer>
 </body>
 
