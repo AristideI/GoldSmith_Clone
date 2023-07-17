@@ -38,23 +38,28 @@
     </script>
 </head>
 
-<body class="bg-[#f6f7f7]">
-    <header class="flex justify-between items-center py-6 px-12">
-        <img src="images/logo.svg" alt="">
-        <section class="flex justify-between items-center gap-12">
+<body class="bg-gray-100">
+    <header class="flex justify-between items-center py-6 px-12 sm:px-4">
+        <img class="sm:w-28" src="images/logo.svg" alt="">
+        <section class="flex justify-between items-center gap-12 sm:hidden">
             <img class="w-40 hover:cursor-pointer" src="images/charm-menu-staff-students.svg" alt="">
             <img class="w-24 hover:cursor-pointer" src="images/search.svg" alt="">
             <img class="w-20 hover:cursor-pointer" src="images/menu.svg" alt="">
         </section>
+        <section class="hidden sm:flex items-center gap-12">
+            <img class="w-8" src="images/graduation-cap (1).png" alt="">
+            <img class="w-8" src="images/search (1).png" alt="">
+            <img class="w-8" src="images/hamburger.png" alt="">
+        </section>
     </header>
 
     <main>
-        <article class=" w-full bg-cover bg-right grid place-content-center py-32 mb-12"
+        <article class=" w-full bg-cover bg-center grid place-content-center py-32 mb-12 sm:py-20 sm:h-56  sm:relative"
             style="background-image: url(images/clearing-homepage-1-compressed.png);">
-            <section class="flex flex-col items-center justify-center">
-                <img class="w-[35rem]" src="images/CLEARED[79].svg" alt="">
+            <section class="flex flex-col items-center justify-center sm:absolute -bottom-10 right-0 left-0">
+                <img class="w-[45rem] sm:w-[25rem]" src="images/CLEARED[79].svg" alt="">
                 <button
-                    class="bg-mainyellow border-[1px] border-maingray border-b-4 border-b-gray-700 px-12 py-4 font-medium">Apply
+                    class="bg-mainyellow border-[1px] border-maingray border-b-4 border-b-gray-700 px-12 py-4 font-medium -mt-12 sm:-mt-10 sm:px-6">Apply
                     now
                     through
                     Clearing</button>
@@ -96,7 +101,7 @@
                             </p>
                         </div>
                         <div class="flex justify-between items-center py-3 border-t-[1px] border-maingray">
-                            <button class="font-medium text-blue-700">Apply for 2023</button>
+                            <button class="font-medium text-blue-700">studying at Goldsmith</button>
                             <img src="images/icon-more-666.svg" alt="">
                         </div>
                     </div>
@@ -175,12 +180,12 @@
         </article>
 
 
-        <article class="mx-12">
+        <article class="mx-12 flex justify-between gap-6">
 
-            <section class="w-1/2 flex flex-col gap-4">
+            <section class="w-1/2 flex flex-col gap-4 h-[50rem]">
 
 
-                <section class="w-full h-[19rem] relative bg-cover"
+                <section class="w-full h-1/2 relative bg-cover"
                     style="background-image: url(images/pop-kat-double-crop-960.jpg);">
                     <div
                         class="flex flex-col justify-between gap-8 bg-white w-[48%] py-4 px-6 absolute bottom-3 -right-4">
@@ -196,9 +201,9 @@
                 </section>
 
 
-                <section class="flex justify-between gap-4">
+                <section class="flex justify-between gap-4 h-1/2">
                     <section class="w-1/2">
-                        <img class="w-full h-48 object-cover" src="images/Artsmark.jpg" alt="">
+                        <img class="w-full h-[14.5rem] object-cover" src="images/Artsmark.jpg" alt="">
                         <div class="relative h-[12.3rem] ">
                             <div
                                 class="h-52 flex flex-col justify-between gap-8 bg-white w-11/12 py-4 px-6 absolute -top-10 left-[4.16%] ">
@@ -215,7 +220,7 @@
                         </div>
                     </section>
                     <section class="w-1/2">
-                        <img class="w-full h-48 object-cover" src="images/Alba-Botines_01.jpg" alt="">
+                        <img class="w-full h-[14.5rem] object-cover" src="images/Alba-Botines_01.jpg" alt="">
                         <div class="relative h-[12.3rem] ">
                             <div
                                 class="h-52 flex flex-col justify-between gap-8 bg-white w-11/12 py-4 px-6 absolute -top-10 left-[4.16%] ">
@@ -237,11 +242,139 @@
             </section>
 
 
+            <section class="w-1/2 flex flex-col gap-4 h-[50rem]">
 
-            <section></section>
+
+                <section class="flex justify-between gap-4 h-1/2">
+
+                    <div class="flex flex-col justify-between gap-8 bg-white w-[48%] py-4 px-6">
+                        <div class="flex flex-col gap-8">
+                            <p class="text-center font-semibold text-xl">Independent antisemitism inquiry</p>
+                            <p class="text-center">We’re working to understand the experiences of our Jewish students
+                                and staff.
+                            </p>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-t-[1px] border-maingray">
+                            <button class="font-medium text-blue-700">Inquiry Info</button>
+                            <img src="images/icon-more-666.svg" alt="">
+                        </div>
+                    </div>
+
+
+                    <section class="w-1/2">
+                        <img class="w-full h-48 object-cover"
+                            src="images/Shadi-Al-Atallah-Cabin-Pressure-2021.-Courtesy-of-Guts-Gallery-and-the-Artist.jpg"
+                            alt="">
+                        <div class="relative h-[12.3rem] ">
+                            <div
+                                class="h-[14.8rem] flex flex-col justify-between gap-8 bg-white w-11/12 py-4 px-6 absolute -top-10 left-[4.16%] ">
+                                <div class="flex flex-col gap-2">
+                                    <p class="text-center font-semibold     ">
+                                        Unruly Bodies, 13 women and non-binary artists explore the experience of
+                                        embodiment today </p>
+                                </div>
+                                <div class="flex justify-between items-center py-3 border-t-[1px] border-maingray">
+                                    <button class="font-medium text-blue-700">GoldSmith CCA</button>
+                                    <img src="images/icon-more-666.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+
+                <section class="w-full h-1/2 relative bg-cover"
+                    style="background-image: url(images/Class-of-2016_-Graduation-2016_10686-s.jpg);">
+                    <div
+                        class="flex flex-col justify-between gap-8 bg-white w-[48%] py-4 px-6 absolute bottom-3 -right-4">
+                        <div class="flex flex-col gap-8">
+                            <p class="text-center font-semibold text-lg ">
+                                Join our alumni community for exclusive benefits and opportunities</p>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-t-[1px] border-maingray">
+                            <button class="font-medium text-blue-700">Keep in touch</button>
+                            <img src="images/icon-more-666.svg" alt="">
+                        </div>
+                    </div>
+                </section>
+
+
+            </section>
 
         </article>
+
+
+        <article class="px-12 py-16 bg-white mt-12 flex justify-between items-center gap-6  ">
+            <section class="w-1/2 flex flex-col items-center gap-8">
+                <p class="text-3xl font-medium text-gray-700">News</p>
+                <div class=" flex justify-between items-start gap-6">
+                    <div class="w-1/2 text-center flex flex-col gap-4">
+                        <img class="w-full h-40 object-cover" src="images/IFUpic.jpg" alt="">
+                        <p class="text-blue-600 font-medium">Expert team partners in major Creative Industries project
+                        </p>
+                        <p class="font-medium text-maingray">14 Jun 2023</p>
+                    </div>
+                    <div class="w-1/2 text-center flex flex-col gap-4">
+                        <img class="w-full h-40 object-cover" src="images/Feltrinelli-Giovani-Prize-.jpg" alt="">
+                        <p class="text-blue-600 font-medium">Economist awarded top academic prize
+                        </p>
+                        <p class="font-medium text-maingray">1 May 2023</p>
+                    </div>
+                </div>
+            </section>
+            <section class="w-1/2 flex flex-col items-center gap-8">
+                <p class="text-3xl font-medium text-gray-700">Events</p>
+                <div class=" flex justify-between items-start gap-6">
+                    <div class="w-1/2 text-center flex flex-col gap-4">
+                        <img class="w-full h-40 object-cover" src="images/image--KVr6ii.php" alt="">
+                        <p class="text-blue-600 font-medium">In Living Memory exhibition
+                        </p>
+                        <p class="font-medium text-maingray">30 Aug 2023</p>
+                    </div>
+                    <div class="w-1/2 text-center flex flex-col gap-4">
+                        <img class="w-full h-40 object-cover" src="images/image.php" alt="">
+                        <p class="text-blue-600 font-medium">Launch event for the findings of the Artist Citizens Jury
+                            2022
+                        </p>
+                        <p class="font-medium text-maingray">21 Dec 2023</p>
+                    </div>
+                </div>
+            </section>
+        </article>
     </main>
+
+
+    <footer class="bg-[#333] text-white py-12 px-12 flex justify-between">
+        <section class="flex flex-col gap-4">
+            <div class="flex flex-col font-medium">
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Contact Us</a></p>
+                <p><a href="#">Find Us</a></p>
+                <p><a href="#">Jobs</a></p>
+            </div>
+            <p class="font-medium text-gray-300 text-xs ">&copy; 2023 Goldsmiths, University of London</p>
+        </section>
+
+        <div class="flex flex-col font-medium">
+            <p><a href="#">Accessibility Statement</a></p>
+            <p><a href="#">Cookie use</a></p>
+            <p><a href="#">Copy right and disclaimer</a></p>
+            <p><a href="#">Slavery and human trafficking statement</a></p>
+        </div>
+
+        <p class=""><a class=" font-medium border-t-2 pt-2" href="#">Admin login</a></p>
+
+        <section class="flex flex-col items-end justify-between">
+            <div class="flex items-center gap-2">
+                <img class="w-6" src="images/twitter.png" alt="">
+                <img class="w-6" src="images/linkedin.png" alt="">
+                <img class="w-6" src="images/facebook-app-symbol.png" alt="">
+                <img class="w-6" src="images/instagram.png" alt="">
+                <img class="w-6" src="images/youtube.png" alt="">
+            </div>
+            <button class="font-medium text-xs">Back to top</button>
+        </section>
+    </footer>
 </body>
 
 </html>
