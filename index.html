@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoldSmith Clone</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -37,11 +38,105 @@
     </script>
 </head>
 
-<body>
-    <h1 class="text-3xl font-bold underline **text-clifford**">
-        Hello world!
-        The saint hehree
-    </h1>
+<body class="bg-[#f6f7f7]">
+    <header class="flex justify-between items-center py-6 px-12">
+        <img src="images/logo.svg" alt="">
+        <section class="flex justify-between items-center gap-12">
+            <img class="w-40 hover:cursor-pointer" src="images/charm-menu-staff-students.svg" alt="">
+            <img class="w-24 hover:cursor-pointer" src="images/search.svg" alt="">
+            <img class="w-20 hover:cursor-pointer" src="images/menu.svg" alt="">
+        </section>
+    </header>
+
+    <main>
+        <article class=" w-full bg-cover bg-right grid place-content-center py-32 mb-12"
+            style="background-image: url(images/clearing-homepage-1-compressed.png);">
+            <section class="flex flex-col items-center justify-center">
+                <img class="w-[35rem]" src="images/CLEARED[79].svg" alt="">
+                <button
+                    class="bg-mainyellow border-[1px] border-maingray border-b-4 border-b-gray-700 px-12 py-4 font-medium">Apply
+                    now
+                    through
+                    Clearing</button>
+            </section>
+        </article>
+
+
+        <article class="mx-12 flex justify-between gap-8">
+
+
+            <section class="w-1/2">
+                <img class="w-full h-96 object-cover" src="images/homepage_hero_march_23.png" alt="">
+                <div class="relative h-[12.3rem] ">
+                    <div
+                        class="flex flex-col justify-between gap-8 bg-white w-11/12 py-4 px-6 absolute -top-10 left-[4.16%] ">
+                        <div class="flex flex-col gap-2">
+                            <p class="text-center font-semibold text-2xl">Postgraduate Degrees</p>
+                            <p class="text-center text-maingray text-lg">
+                                Explore our degrees in subjects covering the arts, humanities, social sciences, cultural
+                                studies, computing, and entrepreneurial business and management.
+                            </p>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-t-[1px] border-maingray">
+                            <button class="font-medium text-blue-700">Apply for 2023</button>
+                            <img src="images/icon-more-666.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="w-1/2 relative flex flex-col justify-between">
+                <section class="flex justify-between relative">
+                    <div class="flex flex-col justify-between gap-20 bg-white w-[48%] py-4 px-6 ">
+                        <div class="flex flex-col gap-4">
+                            <p class="text-center font-semibold text-xl">Study at Goldsmiths</p>
+                            <p class="text-center">
+                                Explore our guide to studying at Goldsmiths.
+                            </p>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-t-[1px] border-maingray">
+                            <button class="font-medium text-blue-700">Apply for 2023</button>
+                            <img src="images/icon-more-666.svg" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-col justify-between gap-8 bg-white w-[48%] py-4 px-6 absolute bottom-0 right-0">
+                        <div class="flex flex-col gap-8">
+                            <p class="text-center font-semibold text-xl">Goldsmith University of London</p>
+                            <p class="text-center">
+                                With world-leading research and high-quality teaching, we offer undergraduate and
+                                postgraduate degrees in the arts, humanities, social sciences, business, and computing
+                                from our campus in South East London.
+                            </p>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-t-[1px] border-maingray">
+                            <button class="font-medium text-blue-700">Apply for 2023</button>
+                            <img src="images/icon-more-666.svg" alt="">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="w-full h-[19rem]"
+                    style="background-image: url(images/Art-Psychotherapy-shows_-2015_11156.jpg);">
+                    <div
+                        class="flex flex-col justify-between gap-8 bg-white w-[48%] py-4 px-6 absolute bottom-0 right-0">
+                        <div class="flex flex-col gap-8">
+                            <p class="text-center font-semibold text-xl">
+                                Many of our short courses are available via live distance learning, so you can continue
+                                to learn online.</p>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-t-[1px] border-maingray">
+                            <button class="font-medium text-blue-700">Short Courses</button>
+                            <img src="images/icon-more-666.svg" alt="">
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+
+        </article>
+    </main>
 </body>
 
 </html>
